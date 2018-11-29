@@ -211,19 +211,6 @@
 </center>
 
 
-<!-- 显示时间 <span id="myclock"></span> -->
-
-<!-- 打字机特效
-
-	<span class="text-static"></span>
-	 <span class="text"></span>
-	 <span class="cursor">|</span> 
--->
-
-<!-- 小吴博客logo：https://img.vim-cn.com/29/fc5703ecc2b4f10231ef47770cdd4b43cdd561.png -->
-<!-- 生日蛋糕logo：https://img.vim-cn.com/fe/57a2a4e17fe41e6b19a7d3b67d2f4da215cc48.png -->
-<!-- 生日祝福语：生日快乐！今天是小吴博客博主的生日！非常感谢大家对我的祝福！ -->
-
     <script>setLoadingBarProgress(40);</script>
     <div>
     <div class='container clearfix'>
@@ -484,21 +471,22 @@
       </span>
     </div>
 
+
 <span id="runtime_span"></span>
 
 <script type="text/javascript">
-
 function show_runtime(){
   window.setTimeout("show_runtime()",1000);
-  X=new Date("8/22/2018 18:27:00");
+  X=new Date("1/1/2018 18:1:1");
   Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
   a=T/M;A=Math.floor(a);
   b=(a-A)*24;B=Math.floor(b);
   c=(b-B)*60;C=Math.floor((b-B)*60);
   D=Math.floor((c-C)*60);
-  runtime_span.innerHTML="—— 本站已稳定运行: "+A+"天"+B+"小时"+C+"分"+D+"秒 ——"}show_runtime();
+  runtime_span.innerHTML="—— 本站已稳定运行： "+A+"天"+B+"小时"+C+"分"+D+"秒 ——"}show_runtime();
 
 </script>
+
 
     
         <div style="margin-top: 10px;">
@@ -514,10 +502,6 @@ function show_runtime(){
     
 
 </footer>
-
-
-
-
 
 <!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
 
@@ -560,15 +544,17 @@ function show_runtime(){
 
     <script>setLoadingBarProgress(100);</script>
 
+
 <script type="text/javascript">
-document.body.oncopy=function(){alert("小吴博客：复制成功！如需转载文章请注意声明原文出处，谢谢！");}
+document.body.oncopy=function(){alert("XX博客：复制成功！如需转载文章请注意声明原文出处，谢谢！");}
 </script>
+
 
 <script>
     document.addEventListener('visibilitychange', function () {
     if (document.visibilityState == 'hidden') {
         normal_title = document.title;
-        document.title = '欢迎回到小吴博客！';
+        document.title = '欢迎回到XX博客';
     } else document.title = normal_title;
 });
 </script>
