@@ -57,17 +57,13 @@
     <link href="https://www.xxx.com/article/201811192203.html"/>
     <id>https://www.xxx.com/article/201811192203.html</id>
     <published>2018-11-19T14:03:40.000Z</published>
-    <updated>2018-11-29T04:30:26.510Z</updated>
+    <updated>2018-11-29T08:25:55.697Z</updated>
     
-    <content type="html"><![CDATA[<p>【前言】这是置顶文章的写法示例。</p>]]></content>
+    <content type="html"><![CDATA[<p>【前言】这是置顶文章的写法示例。<a id="more"></a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;【前言】这是置顶文章的写法示例。&lt;/p&gt;
-
-      
+      &lt;p&gt;【前言】这是置顶文章的写法示例。
     
     </summary>
     
