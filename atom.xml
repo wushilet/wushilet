@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>XX博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.xxx.com/"/>
+  <updated>2018-11-29T02:43:03.844Z</updated>
+  <id>https://www.xxx.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最新文章示例</title>
+    <link href="https://www.xxx.com/article/201811260856.html"/>
+    <id>https://www.xxx.com/article/201811260856.html</id>
+    <published>2018-11-26T00:56:31.000Z</published>
+    <updated>2018-11-29T02:43:03.844Z</updated>
+    
+    <content type="html"><![CDATA[<p>【前言】这是置顶文章的写法示例。<a id="more"></a></p><h2 id="最新文章的顶部参数设置"><a href="#最新文章的顶部参数设置" class="headerlink" title="最新文章的顶部参数设置"></a>最新文章的顶部参数设置</h2><p><code>newimg:</code> 最新文章会在首页文章列表的右侧显示<code>new</code>图标。只要保持其参数为true即可。每当编写了新的文章时，请将前一篇文章设置的<code>newimg</code>参数删除，并在新建的文章中设置。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;【前言】这是置顶文章的写法示例。
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>置顶文章示例</title>
+    <link href="https://www.xxx.com/article/article-top.html"/>
+    <id>https://www.xxx.com/article/article-top.html</id>
+    <published>2018-11-22T03:35:22.000Z</published>
+    <updated>2018-11-29T02:29:43.894Z</updated>
+    
+    <content type="html"><![CDATA[<p>【前言】这是置顶文章的写法示例。在<code>&lt;!-- more --&gt;</code>标签前的内容都会显示在首页的文章列表的摘录中，内容不能太多，建议在一至两段后即可添加more标签。<a id="more"></a></p><h2 id="置顶文章的顶部参数设置"><a href="#置顶文章的顶部参数设置" class="headerlink" title="置顶文章的顶部参数设置"></a>置顶文章的顶部参数设置</h2><ul><li><code>img:</code> 设置了首页列表左侧显示的图片，使用默认的置顶图片即可。如果需要替换，请进入博客根目录下的<code>source\img</code>文件夹下进行替换。</li></ul><p><code>topimg:</code> 设置是否显示右侧的置顶标志，true为显示，false为不显示。</p><p><code>top:</code> 设置置顶顺序，当top的值越大时，文章会显示在首页列表最上方。若无特殊需求，建议不要在其他文章中设置top参数，以免导致文章顺序排列错误。</p><h2 id="置顶文章的内容建议"><a href="#置顶文章的内容建议" class="headerlink" title="置顶文章的内容建议"></a>置顶文章的内容建议</h2><p>可将某篇特别的文章进行置顶展示或者专门用来编辑各种公告、通知、留言等内容。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;【前言】这是置顶文章的写法示例。在&lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;标签前的内容都会显示在首页的文章列表的摘录中，内容不能太多，建议在一至两段后即可添加more标签。
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>普通文章示例</title>
+    <link href="https://www.xxx.com/article/201811192203.html"/>
+    <id>https://www.xxx.com/article/201811192203.html</id>
+    <published>2018-11-19T14:03:40.000Z</published>
+    <updated>2018-11-29T04:30:26.510Z</updated>
+    
+    <content type="html"><![CDATA[<p>【前言】这是置顶文章的写法示例。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;【前言】这是置顶文章的写法示例。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
